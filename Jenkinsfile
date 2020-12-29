@@ -1,5 +1,5 @@
 // Importing the shared library
-@Library('shared-library') _
+@Library('test-pipeline-library') _
 
 pipeline {
    agent any
