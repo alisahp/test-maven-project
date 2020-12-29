@@ -1,7 +1,5 @@
-@Library('test-pipeline-library') _
-import com.example.*
-
-/ *new Pipeline(this, "config.yml").execute() */
+// Importing the shared library
+@Library('shared-library') _
 
 pipeline {
    agent any
